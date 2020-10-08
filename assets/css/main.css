@@ -3501,8 +3501,10 @@ input, select, textarea {
 
 			#intro {
 				padding: 2rem 2rem 3rem 2rem ;
-				min-height: 35vh;
+				min-height: 36vh;
 				background-size: 100%;
+				margin-left: 0;
+				margin-right: 0;
 
 			}
 
