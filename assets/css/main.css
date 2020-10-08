@@ -3282,8 +3282,12 @@ input, select, textarea {
 		background-image: url('../../images/toppic1.jpg');
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: 72rem;
-		
+		background-size: 100%;
+		margin: 0 auto;
+		width: calc(100% - 4rem);
+		max-width: 72rem;
+
+
 		color: #ffffff;
 		padding: 6rem 4rem 5.15rem 4rem;
 		-moz-align-items: center;
@@ -3453,8 +3457,10 @@ input, select, textarea {
 
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 61vh;
-				background-size: 92%;
+				min-height: 72vh;
+				max-width: 72rem;
+				background-size: 100%;
+				
 			}
 
 				#intro p br {
@@ -3471,8 +3477,10 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 3rem 2rem ;
-				min-height: 44vh;
-				background-size: 88%;
+				min-height: 50vh;
+				max-width: 72rem;
+				background-size: 100%;
+
 			}
 
 				#intro h1 {
@@ -3491,7 +3499,32 @@ input, select, textarea {
 				}
 
 		}
+		@media screen and (max-width: 460px) {
 
+			#intro {
+				padding: 3rem 2rem 3rem 2rem ;
+				min-height: 25vh;
+				max-width: 72rem;
+				background-size: 100%;
+
+			}
+
+				#intro h1 {
+					font-size: 2.25rem;
+					line-height: 1.1;
+					margin-bottom: 1rem;
+				}
+
+				#intro p {
+					font-size: 1rem;
+					margin-top: 0rem;
+				}
+
+				#intro .actions {
+					display: none;
+				}
+
+		}
 
 /* Header */
 
