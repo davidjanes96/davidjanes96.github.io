@@ -3500,8 +3500,8 @@ input, select, textarea {
 		@media screen and (max-width: 500px) {
 
 			#intro {
-				padding: 2rem 2rem 3rem 2rem ;
-				min-height: 36vh;
+				padding: 0rem 0rem 3rem 2rem ;
+				min-height: 40vh;
 				background-size: 100%;
 				margin-left: 0;
 				margin-right: 0;
