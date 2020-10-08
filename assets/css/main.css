@@ -3497,14 +3497,12 @@ input, select, textarea {
 				}
 
 		}
-		@media screen and (max-width: 500px) {
+		@media screen and (max-width: 550px) {
 
 			#intro {
 				padding: 0rem 0rem 3rem 2rem ;
-				min-height: 40vh;
+				min-height: 35vh;
 				background-size: 100%;
-				margin-left: 0;
-				margin-right: 0;
 
 			}
 
