@@ -3492,6 +3492,31 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 640px) {
+
+			#intro {
+				padding: 3rem 2rem 3rem 2rem ;
+				min-height: 30vh;
+				background-size: 88%;
+			}
+
+				#intro h1 {
+					font-size: 2.25rem;
+					line-height: 1.1;
+					margin-bottom: 1rem;
+				}
+
+				#intro p {
+					font-size: 1rem;
+					margin-top: 0rem;
+				}
+
+				#intro .actions {
+					display: none;
+				}
+
+		}
+
 /* Header */
 
 	#header {
