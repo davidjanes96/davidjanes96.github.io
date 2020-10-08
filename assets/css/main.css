@@ -3492,12 +3492,12 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 640px) {
+		@media screen and (max-width: 460px) {
 
 			#intro {
 				padding: 3rem 2rem 3rem 2rem ;
-				min-height: 20vh;
-				background-size: 92%;
+				min-height: 30vh;
+				background-size: 90%;
 			}
 
 				#intro h1 {
