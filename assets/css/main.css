@@ -3500,9 +3500,10 @@ input, select, textarea {
 		@media screen and (max-width: 550px) {
 
 			#intro {
-				padding: 0rem 0rem 3rem 2rem ;
-				min-height: 35vh;
+				padding: 0rem 0rem 1rem 2rem ;
+				min-height: 38vh;
 				background-size: 100%;
+				margin: 0 0 0.15 0;
 
 			}
 
@@ -4661,7 +4662,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
