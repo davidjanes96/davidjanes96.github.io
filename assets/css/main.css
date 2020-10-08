@@ -3458,7 +3458,6 @@ input, select, textarea {
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
 				min-height: 72vh;
-				max-width: 72rem;
 				background-size: 100%;
 				
 			}
@@ -3478,7 +3477,6 @@ input, select, textarea {
 			#intro {
 				padding: 3rem 2rem 3rem 2rem ;
 				min-height: 50vh;
-				max-width: 72rem;
 				background-size: 100%;
 
 			}
@@ -3504,7 +3502,6 @@ input, select, textarea {
 			#intro {
 				padding: 3rem 2rem 3rem 2rem ;
 				min-height: 25vh;
-				max-width: 72rem;
 				background-size: 100%;
 
 			}
