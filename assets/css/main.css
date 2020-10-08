@@ -3496,8 +3496,8 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 3rem 2rem ;
-				min-height: 30vh;
-				background-size: 88%;
+				min-height: 20vh;
+				background-size: 92%;
 			}
 
 				#intro h1 {
