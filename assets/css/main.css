@@ -3482,7 +3482,7 @@ input, select, textarea {
 			}
 
 				#intro h1 {
-					font-size: 2.25rem;
+					font-size: 3.25rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}
@@ -3500,9 +3500,9 @@ input, select, textarea {
 		@media screen and (max-width: 550px) {
 
 			#intro {
-				padding: 0rem 0rem 1rem 2rem ;
+				padding: 0rem 0rem 0rem 0rem ;
 				min-height: 30vh;
-				width: 100%;
+				max-width: 100%;
 				
 
 			}
